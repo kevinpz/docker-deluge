@@ -11,7 +11,7 @@ version: '2'
 
 services:
   deluge:
-    image: source/deluge
+    image: kevinpz/deluge
     restart: always
     volumes:
       - /home/profile/docker/deluge/config:/config
